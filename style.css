@@ -1,0 +1,58 @@
+html, body {
+    padding: 0;
+    margin: 0;
+   height: 100%;
+}
+#header {
+    background-color:#22b14c;
+    width: 100%;
+    height: 50px;
+}
+
+#main-body{
+    width: 99%;
+    height: calc(98.4% - 80px);
+    display: flex;
+    align-content: center;
+    padding: 5px 0;
+    padding-left: 5px;
+
+}
+#left-pane{
+   background-color:#7f7f7f; 
+   width: 20%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+  
+}
+.rounded{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-top: 20px;
+    border: 2px solid rgb(185, 223, 235);
+    border-radius: 50%;
+ 
+}
+.rounded > img{
+
+    border-radius: 50%;
+
+}
+#right-pane{
+    background-color: #f6f6f6;
+    width: 79%;
+    height: 100%;
+    margin: 0 0 0 10px;
+    overflow: auto;
+    color: #444;
+    padding: 0  5px;
+  
+ }
+
+#footer{
+    background-color: blue;
+    width: 100%;
+    height: 30px;
+}
